@@ -1,0 +1,21 @@
+
+
+.view{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: rgb(139, 207, 151);
+}
+p{
+  margin-top: 5px;
+  color: rgb(4, 4, 109);
+}
+
+span{
+    color: blue;
+    font-size: 25px;
+}
+
+
