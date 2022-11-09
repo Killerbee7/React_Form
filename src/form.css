@@ -1,5 +1,9 @@
+
 .form_container{
-    background-color: rgb(204, 236, 180);
+  background-image: url(pic2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     height: 60vh;
     padding-left: 20px;
     padding-top: 30px;
@@ -33,7 +37,7 @@ label{
 font-weight: bold;
 
   letter-spacing : .025em;
-  font-size: 1.125em;
+  font-size: 1.75em;
   line-height: 1.25;
   position: relative;
   z-index: 100;
