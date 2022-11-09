@@ -3,9 +3,9 @@ import "./form.css";
 
 const Form = (props) => {
   return (
-    <form>
+    <form onSubmit={props.submit}>
       <div className="form_container">
-        <div className="input_area" onChange={props.onChange} onSubmit={props.submit}>
+        <div className="input_area" onChange={props.onChange} >
           
           <label htmlFor="f_name">First Name:</label>
           <input name="f_name" id="f_name" type="text" />
@@ -24,7 +24,7 @@ const Form = (props) => {
           <textarea name="message" id="textarea" rows="10"></textarea>
         </div>
         <div className="btn">
-          <button className="button-73" type="submit" onClick={props.submit} >
+          <button className="button-73" type="submit"  >
             Submit
           </button>
         </div>

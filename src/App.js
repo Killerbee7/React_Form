@@ -29,10 +29,16 @@ state= {
 
 hidePopup = (e) => {
   e.preventDefault();
- 
-  this.setState({
+  
+  this.setState({note:{
+    f_name:"",
+    l_name:"",
+    p_number:"",
+    role: "",
+    message:""},
     show:false,
   });
+  
 };
 
 submitHandler = (e) => {
@@ -40,10 +46,6 @@ submitHandler = (e) => {
  this.setState({
   show: true,
 });
-}
-
-closeHandler = () => {
-  
 }
 
 

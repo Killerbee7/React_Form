@@ -2,11 +2,41 @@
     height: 100vh;
     width: 100%;
     margin: 0;
-    background-color: rgb(166, 237, 109);
+    background-color: rgb(182, 216, 152);
     font-size: 30px;
     text-align: center;
     padding-top: 10%;
     position: absolute;
-    z-index: 1;
+
+    
+}
+.input_result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 5px dashed rgb(0, 129, 22);
+    width: 50%;
+    height: 30%;
+    margin-left: 25%;
+
 }
 
+.input_result p{
+   display: flex;
+
+    
+    
+}
+
+
+
+
+.popup .button-73{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.popup span{
+    color: black;
+}

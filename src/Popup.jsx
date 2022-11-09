@@ -4,13 +4,17 @@ import "./popup.css";
 const Popup = (props) => {
   return (
     <div className="popup">
-      <div className="input_result">
         <h1>Your Note</h1>
-        <p>First Name: {props.f_name}</p>
-        <p>Last Name: {props.l_name}</p>
-        <p>Phone Number: {props.p_number}</p>
-        <p>Role: {props.role}</p>
-        <p>Message: {props.message}</p>
+      <div className="input_result">
+        
+        <div id="para">
+            <p>First Name: <span>{props.f_name}</span></p>
+            <p>Last Name: <span>{props.l_name}</span></p>
+            <p>Phone Number: <span>{props.p_number}</span></p>
+            <p>Role: <span>{props.role}</span></p>
+            <p>Message: <span>{props.message}</span></p>
+        </div>
+        
       </div>
       <div>
         <button className="button-73" onClick={props.hidePopup}>
