@@ -6,7 +6,7 @@
   background-size: cover;
     height: 60vh;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 
@@ -19,25 +19,25 @@
 }
 input,select{
     width: 50%;
-    height: 40px;
-    font-size: 30px;
+    height: 30px;
+    font-size: 20px;
 }
 #role{
-    height: 50px;
-    font-size: 30px;
+    height: 40px;
+    font-size: 20px;
 }
 
 textarea{
     width: 50%;
-    max-height: 15vh;
-    font-size: 25px;
+    max-height: 10vh;
+    font-size: 20px;
     
 }
 label{
 font-weight: bold;
 
   letter-spacing : .025em;
-  font-size: 1.75em;
+  font-size: 1.5em;
   line-height: 1.25;
   position: relative;
   z-index: 100;

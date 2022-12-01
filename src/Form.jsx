@@ -1,18 +1,18 @@
 import React from "react";
 import "./form.css";
 
-const Form = (props) => {
+const Form = ({ submit, onChange}) => {
   return (
-    <form onSubmit={props.submit}>
+    <form onSubmit={submit}>
       <div className="form_container">
-        <div className="input_area" onChange={props.onChange} >
+        <div className="input_area" onChange={onChange} >
           
-          <label htmlFor="f_name">First Name:</label>
-          <input name="f_name" id="f_name" type="text" />
-          <label htmlFor="l_name">Last Name:</label>
-          <input name="l_name" id="l_name" type="text" />
-          <label htmlFor="p_number">Phone Number:</label>
-          <input name="p_number" type="tel" id="p_number" />
+          <label htmlFor="firstName">First Name:</label>
+          <input name="firstName" id="firstName" type="text" />
+          <label htmlFor="lastName">Last Name:</label>
+          <input name="lastName" id="lastName" type="text" />
+          <label htmlFor="phone">Phone Number:</label>
+          <input name="phone" type="tel" id="phone" />
           <label htmlFor="role">Role:</label>
           <select name="role" id="role">
           <option disabled value="">Select a role:</option>

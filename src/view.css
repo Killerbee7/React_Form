@@ -1,29 +1,30 @@
 
 
 .view{
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    font-size: 20px;
-    background-image: url(view.jpg);
+    font-size: 15px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 30px;
+    font-size: 20px;
 }
 p{
-  margin-top: 10px;
+  margin-top: 3px;
   color:darkgreen;
 }
 h1{
   
   color:darkgreen;
+  font-size: 30px;
+  margin-top: 0;
 }
 
 span{
     color: rgb(76, 4, 243);
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 10px;
 }
 

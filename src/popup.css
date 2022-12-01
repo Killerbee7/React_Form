@@ -15,10 +15,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 5px dashed rgb(0, 129, 22);
+   
     width: 50%;
     height: 30%;
-    margin-left: 25%;
+    margin-left: 15%;
 
 }
 
@@ -34,7 +34,7 @@
 
 .popup .button-73{
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .popup span{

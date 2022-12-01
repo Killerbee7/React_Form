@@ -1,0 +1,60 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Cena",
+      "phone": "0441234567",
+      "role": "student",
+      "message": "i am a wrestler"
+    },
+    {
+      "id": 2,
+      "firstName": "Bruno",
+      "lastName": "Mars",
+      "phone": "04412345678",
+      "role": "teacher",
+      "message": "i am a singer"
+    },
+    {
+      "id": 3,
+      "firstName": "Emilia",
+      "lastName": "Clarke",
+      "phone": "04412345679",
+      "role": "teacher",
+      "message": "i am mother of dragons"
+    },
+    {
+      "id": 4,
+      "firstName": "Emilia",
+      "lastName": "Clarke",
+      "phone": "04412345679",
+      "role": "teacher",
+      "message": "i am mother of dragons"
+    },
+    {
+      "firstName": "Dibya",
+      "lastName": "Dahal",
+      "phone": "12345678",
+      "role": "",
+      "message": "I am a student.",
+      "id": 5
+    },
+    {
+      "firstName": "Dipika",
+      "lastName": "Dahal",
+      "phone": "4563278190§",
+      "role": "",
+      "message": "asdbfngmh",
+      "id": 6
+    },
+    {
+      "firstName": "Dibya",
+      "lastName": "Dahal",
+      "phone": "23456",
+      "role": "",
+      "message": "imnbvfcdsxaz",
+      "id": 7
+    }
+  ]
+}
