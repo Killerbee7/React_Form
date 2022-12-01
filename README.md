@@ -9,10 +9,10 @@
 * CSS
 * React JS
 ## Home Screen 
-![Home Screen](./public/images/Screenshot%202022-11-21%20at%2014.45.44.png)
+![Home Screen]()
 
-## Animal List Screen
-![Animal Screen](./public/images/Screenshot%202022-11-21%20at%2014.43.11.png)
+## Popup Screen
+![Popup Screen]()
 
 ## Github Link
 ## [Press Me](https://github.com/Killerbee7/animalList_React)
