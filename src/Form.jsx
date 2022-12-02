@@ -6,7 +6,7 @@ const Form = ({ submit, onChange}) => {
     <form onSubmit={submit}>
       <div className="form_container">
         <div className="input_area" onChange={onChange} >
-          <div></div>
+          
           <label htmlFor="firstName">First Name:</label>
           <input name="firstName" id="firstName" type="text" />
           <label htmlFor="lastName">Last Name:</label>
