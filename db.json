@@ -40,21 +40,14 @@
       "message": "I am a student.",
       "id": 5
     },
+   
     {
-      "firstName": "Dipika",
-      "lastName": "Dahal",
-      "phone": "4563278190§",
+      "firstName": "Nadia Juthy",
+      "lastName": "Dibya Dahal",
+      "phone": "+1234567898",
       "role": "",
-      "message": "asdbfngmh",
-      "id": 6
-    },
-    {
-      "firstName": "Dibya",
-      "lastName": "Dahal",
-      "phone": "23456",
-      "role": "",
-      "message": "imnbvfcdsxaz",
-      "id": 7
+      "message": "AWS App deployment with AWS Amplify.",
+      "id": 8
     }
   ]
 }
